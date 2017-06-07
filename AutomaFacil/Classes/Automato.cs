@@ -17,6 +17,7 @@ namespace AutomaFacil.Classes
         public Automato(String transicoes) //passa todas as transacao. primeiro linha depois coluna
         {
             //grava as transicoes para consultas
+            //verificar com o wilton como gravar, list???
         }
         #endregion
 
@@ -24,6 +25,7 @@ namespace AutomaFacil.Classes
         public void Processa(int estado, String valor)
         {
             //consulta oque fazer para com os valores recebidos
+            //consultar onde, list??
             if (estado == 1)
             {
                 if (valor=="A")
